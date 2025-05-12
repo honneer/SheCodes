@@ -82,13 +82,16 @@
       {
         alert("Good Morning!");
       }
-      else if (hour > 18)
-      {
-        alert("Good Evening!");
-      }
       else
-      {
-        alert("Good Afternoon!");
+      { 
+        if (hour > 18)
+        {
+            alert("Good Evening!");
+        }
+        else
+        {
+           alert("Good Afternoon!");
+        }
       }
 
     </script>
