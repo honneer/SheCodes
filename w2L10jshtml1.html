@@ -77,7 +77,9 @@
     <script> 
         function contactUs()
         {
-            let name = prompt("What is your first name? ");
+            let fname = prompt("What is your first name? ");
+            let lname = prompt("What is your Last name? ");
+            let name = fname + " " + lname
             let age = prompt("What is your age? ");
 
             if (age > 18)
@@ -87,8 +89,9 @@
             }
             else
             {
+            
                 let h1 = document.querySelector("h1");
-                h1.innerHTML = "Sorry " + name + ", You can't join SheCodes" ;
+                h1.innerHTM = "Sorry " + name + ", You can't join SheCodes";
             }
         }
 
