@@ -84,7 +84,7 @@
         function canApply()
         {
             let age = prompt("What is your age? ");
-            return age;
+            return age >=18 ;
         }
         
         function apply()
@@ -99,6 +99,7 @@
             {
                 updateHeading(`Sorry ${name}, You cannot join SheCodes`);
             }
+
         }
 
         let contactButton = document.querySelector("button");
